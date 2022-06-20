@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Nunito,Roboto,system-ui,Tahoma,sans-serif;
+}
+body {
+    background: #FFDF8C;
+}
+.app {
+    display: flex;
+}
+.wrapper {
+    width: calc(100vw - 100px);
+    height: 100%;
+    background-color: #fff;
+    margin: 50px auto;
+    border-radius: 10px;
+    max-width: 1400px;
+    box-sizing: border-box;
+    padding: 50px 70px;
+}

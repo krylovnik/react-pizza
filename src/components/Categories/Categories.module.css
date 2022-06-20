@@ -1,0 +1,26 @@
+.categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+.categoriesList {
+    display: flex;
+
+}
+.categoriesItem {
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 13px 30px;
+    background-color: #F9F9F9;
+    border-radius: 30px;
+    transition: background-color .1s ease-in-out;
+}
+.sort {
+    font-weight: 700;
+}
+.categoriesItem:hover {
+    background-color: #e7e7e7;
+}
